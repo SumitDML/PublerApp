@@ -68,6 +68,13 @@ Screen1 As screen:
             Y: =106
             ZIndex: =6
 
+    Image3 As image:
+        Height: =72
+        Image: =D
+        Width: =39
+        X: =1316
+        ZIndex: =11
+
     Group2 As group:
         Height: =5
         Width: =5
