@@ -1,82 +1,26 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "Button1": 7,
-    "Image1": 6,
-    "Rectangle1": 4,
-    "Rectangle2": 8,
-    "Rectangle3": 9,
-    "Rectangle4": 5,
-    "Rectangle5": 10,
-    "Screen1": 3
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "03/22/2023 07:32:06",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {
-    "DigiMantra-Labs-logo-design-New (1)": "0001.png"
-  },
-  "LocalResourceRootPaths": {
-    "DigiMantra-Labs-logo-design-New (1)": "https://docserverpwaprodcin.blob.core.windows.net/0ae60f29-1b85-4f43-8013-b1df61dec913-1/resource/Assets0Images00001.png?sv=2018-03-28&sr=b&sig=TKwlnU06hHDPgyMk4YV75RT1NeRL0Wad61hFrkXhj4Y%3D&spr=https&se=2023-03-23T07%3A46%3A13Z&sp=r"
-  },
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {
-    "ComboBoxSample": 0
-  },
+  "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "button": 2,
-    "image": 1,
-    "rectangle": 0
-  },
-  "OverridablePropertiesEntry": {
-    "App": {},
-    "Button1": {},
-    "Image1": {},
-    "Rectangle1": {},
-    "Rectangle2": {},
-    "Rectangle3": {},
-    "Rectangle4": {},
-    "Rectangle5": {},
-    "Screen1": {}
-  },
+  "OrderXMLTemplate": {},
+  "OverridablePropertiesEntry": {},
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {
-    "App": 0,
-    "Button1": 6,
-    "Image1": 5,
-    "Rectangle1": 3,
-    "Rectangle2": 7,
-    "Rectangle3": 8,
-    "Rectangle4": 4,
-    "Rectangle5": 0,
-    "Screen1": 2
-  },
-  "ResourcesJsonIndices": {
-    "Image-DigiMantra-Labs-logo-design-New (1)": 1,
-    "Image-SampleImage": 0
-  },
+  "PublishOrderIndices": {},
+  "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.0169161,
-    "ControlCount": {
-      "button": 1,
-      "image": 1,
-      "rectangle": 4,
-      "screen": 1
-    },
-    "DeserializationLoadTime": 1.0320651,
-    "ErrorCount": 0
-  },
-  "WasLocalDatabaseReferencesEmpty": true
+  "TemplateVersions": {}
 }

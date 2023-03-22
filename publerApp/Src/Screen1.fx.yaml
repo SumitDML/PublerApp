@@ -41,8 +41,8 @@ Screen1 As screen:
         BorderColor: =RGBA(0, 0, 0, 0)
         Fill: =RGBA(0, 0, 0, 0)
         Height: =48
-        X: =1
-        Y: =96
+        X: =1168
+        Y: =136
         ZIndex: =4
 
     Rectangle4 As rectangle:
