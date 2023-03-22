@@ -37,26 +37,65 @@ Screen1 As screen:
         Y: =96
         ZIndex: =3
 
-    Rectangle3 As rectangle:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        Fill: =RGBA(0, 0, 0, 0)
-        Height: =48
-        Y: =96
-        ZIndex: =4
+    Group1 As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =7
 
-    Icon1 As icon.AddDocument:
-        Height: =37
-        Icon: =Icon.AddDocument
-        Width: =25
-        X: =14
-        Y: =101
-        ZIndex: =5
+        Rectangle3 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =48
+            Y: =95
+            ZIndex: =4
 
-    Label1 As label:
-        Height: =32
-        Text: ="Create"
-        Width: =70
-        X: =41
-        Y: =103
-        ZIndex: =6
+        Icon1 As icon.AddDocument:
+            Height: =37
+            Icon: =Icon.AddDocument
+            Width: =25
+            X: =16
+            Y: =101
+            ZIndex: =5
+
+        Label1 As label:
+            Height: =32
+            Size: =12
+            Text: ="Create"
+            Width: =70
+            X: =41
+            Y: =106
+            ZIndex: =6
+
+    Group2 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =11
+
+        Rectangle3_1 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =48
+            Y: =144
+            ZIndex: =7
+
+        Label1_1 As label:
+            Height: =32
+            Size: =12
+            Text: ="Post"
+            Width: =70
+            X: =41
+            Y: =148
+            ZIndex: =9
+
+        Icon2 As icon.Add:
+            Height: =37
+            Icon: =Icon.Add
+            Width: =25
+            X: =16
+            Y: =143
+            ZIndex: =10
 
