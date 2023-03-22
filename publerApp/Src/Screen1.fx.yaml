@@ -17,12 +17,6 @@ Screen1 As screen:
         X: =150
         ZIndex: =2
 
-    Image1 As image:
-        Height: =72
-        Image: ='DigiMantra-Labs-logo-design-New (1)'
-        Width: =153
-        ZIndex: =3
-
     Button1 As button:
         BorderColor: =RGBA(219, 219, 219, 1)
         BorderThickness: =0.5
@@ -37,8 +31,23 @@ Screen1 As screen:
         Y: =96
         ZIndex: =3
 
+    Image1 As image:
+        Height: =72
+        Image: ='DigiMantra-Labs-logo-design-New (1)'
+        Width: =153
+        ZIndex: =3
+
     Rectangle3 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =48
         X: =1168
         Y: =136
         ZIndex: =4
+
+    Rectangle4 As rectangle:
+        Height: =644
+        X: =382
+        Y: =96
+        ZIndex: =5
 
