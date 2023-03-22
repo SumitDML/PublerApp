@@ -48,12 +48,15 @@ Screen1 As screen:
             BorderColor: =RGBA(0, 0, 0, 0)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =48
+            HoverFill: =RGBA(204, 208, 225, 1)
+            PressedFill: =RGBA(215, 223, 240, 1)
             Y: =95
             ZIndex: =4
 
         Icon1 As icon.AddDocument:
             Height: =37
             Icon: =Icon.AddDocument
+            PressedFill: =Self.Color
             Width: =25
             X: =16
             Y: =101
@@ -61,6 +64,9 @@ Screen1 As screen:
 
         Label1 As label:
             Height: =32
+            HoverColor: =Self.Fill
+            PressedColor: =Self.Fill
+            PressedFill: =Self.Color
             Size: =12
             Text: ="Create"
             Width: =70
@@ -86,6 +92,8 @@ Screen1 As screen:
             BorderColor: =RGBA(0, 0, 0, 0)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =48
+            HoverFill: =RGBA(215, 223, 240, 1)
+            PressedFill: =RGBA(215, 223, 240, 1)
             Y: =144
             ZIndex: =7
 
@@ -99,10 +107,17 @@ Screen1 As screen:
             ZIndex: =9
 
         Icon2 As icon.Add:
-            Height: =37
+            Height: =35
             Icon: =Icon.Add
             Width: =25
             X: =16
             Y: =143
             ZIndex: =10
+
+    Icon3 As icon.Bell:
+        Height: =72
+        Icon: =Icon.Bell
+        Width: =39
+        X: =1255
+        ZIndex: =12
 
