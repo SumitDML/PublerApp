@@ -25,7 +25,10 @@ Screen1 As screen:
 
     Button1 As button:
         BorderColor: =RGBA(219, 219, 219, 1)
-        BorderThickness: =0.5
+        BorderThickness: =0
+        DisabledColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Disabled
         Fill: =RGBA(255, 255, 255, 1)
         Height: =644
         RadiusBottomLeft: =15
@@ -64,7 +67,6 @@ Screen1 As screen:
 
         Label1 As label:
             Height: =32
-            HoverColor: =Self.Fill
             PressedColor: =Self.Fill
             PressedFill: =Self.Color
             Size: =12
@@ -120,4 +122,58 @@ Screen1 As screen:
         Width: =39
         X: =1255
         ZIndex: =12
+
+    Button2 As button:
+        BorderThickness: =0
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Disabled
+        Height: =634
+        Text: =""
+        Width: =648
+        X: =358
+        Y: =106
+        ZIndex: =13
+
+    Icon4 As icon.Search:
+        Color: =RGBA(116, 116, 116, 1)
+        Height: =27
+        Icon: =Icon.Search
+        Width: =22
+        X: =200
+        Y: =118
+        ZIndex: =14
+
+    Rectangle5 As rectangle:
+        BorderColor: =RGBA(136, 160, 209, 1)
+        BorderThickness: =2
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        DisplayMode: =DisplayMode.Disabled
+        Height: =38
+        Width: =131
+        X: =188
+        Y: =113
+        ZIndex: =15
+
+    Label2 As label:
+        BorderColor: =RGBA(215, 223, 240, 1)
+        Color: =RGBA(116, 116, 116, 1)
+        Height: =39
+        Text: ="Search"
+        Width: =97
+        X: =222
+        Y: =112
+        ZIndex: =16
+
+    Button4 As button:
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Disabled
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =627
+        Text: ="Button"
+        Width: =306
+        X: =1030
+        Y: =113
+        ZIndex: =17
 
