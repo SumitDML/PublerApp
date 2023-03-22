@@ -4,5 +4,6 @@ Screen1 As screen:
     Rectangle1 As rectangle:
         Fill: =RGBA(255, 255, 255, 1)
         Height: =768
+        Width: =153
         ZIndex: =1
 
