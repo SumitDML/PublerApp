@@ -197,3 +197,33 @@ Screen2 As screen:
                 Y: =59
                 ZIndex: =2
 
+        Container3_5 As groupContainer.manualLayoutContainer:
+            BorderColor: =RGBA(227, 234, 243, 1)
+            BorderThickness: =2
+            Height: =117
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Width: =125
+            X: =476
+            Y: =198
+            ZIndex: =6
+
+            Image5_5 As image:
+                Height: =65
+                Image: ='174857'
+                Width: =37
+                X: =41
+                Y: =10
+                ZIndex: =1
+
+            Label6_5 As label:
+                Align: =Align.Center
+                Size: =10
+                Text: ="LinkedIn"
+                Width: =94
+                X: =12
+                Y: =59
+                ZIndex: =2
+
