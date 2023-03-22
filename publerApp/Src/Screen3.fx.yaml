@@ -1,11 +1,21 @@
 Screen3 As screen:
 
     Label7 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(50, 86, 160, 1)
+        FontWeight: =FontWeight.Semibold
         Height: =214
+        Size: =29
         Text: ="Text"
         Width: =354
-        X: =340
-        Y: =256
+        X: =488
+        Y: =232
         ZIndex: =1
+
+    Label8 As label:
+        Text: ="Helloo"
+        X: =590
+        Y: =100
+        ZIndex: =2
 
