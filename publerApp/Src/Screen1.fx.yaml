@@ -192,8 +192,8 @@ Screen1 As screen:
             Fill: =RGBA(255, 255, 255, 1)
             Height: =38
             OnSelect: =Navigate(Screen2)
-            Width: =144
-            X: =188
+            Width: =132
+            X: =200
             Y: =678
             ZIndex: =18
 
@@ -202,8 +202,8 @@ Screen1 As screen:
             Height: =38
             Icon: =Icon.Add
             OnSelect: =Navigate(Screen2)
-            Width: =24
-            X: =194
+            Width: =22
+            X: =206
             Y: =678
             ZIndex: =19
 
@@ -213,8 +213,8 @@ Screen1 As screen:
             OnSelect: =Navigate(Screen2)
             Size: =12
             Text: ="Add Account"
-            Width: =110
-            X: =222
+            Width: =89
+            X: =242
             Y: =678
             ZIndex: =20
 
