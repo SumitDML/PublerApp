@@ -41,18 +41,22 @@ Screen1 As screen:
         BorderColor: =RGBA(0, 0, 0, 0)
         Fill: =RGBA(0, 0, 0, 0)
         Height: =48
-        X: =1168
-        Y: =136
+        Y: =96
         ZIndex: =4
 
-    Rectangle4 As rectangle:
-        Height: =644
-        X: =382
-        Y: =96
+    Icon1 As icon.AddDocument:
+        Height: =37
+        Icon: =Icon.AddDocument
+        Width: =25
+        X: =14
+        Y: =101
         ZIndex: =5
 
-    Rectangle5 As rectangle:
-        X: =1168
-        Y: =612
+    Label1 As label:
+        Height: =32
+        Text: ="Create"
+        Width: =70
+        X: =41
+        Y: =103
         ZIndex: =6
 
