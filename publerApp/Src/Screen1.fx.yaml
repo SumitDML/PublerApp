@@ -31,3 +31,14 @@ Screen1 As screen:
         Y: =96
         ZIndex: =3
 
+    Image1 As image:
+        Height: =72
+        Image: ='DigiMantra-Labs-logo-design-New (1)'
+        Width: =153
+        ZIndex: =3
+
+    Rectangle3 As rectangle:
+        X: =632
+        Y: =188
+        ZIndex: =4
+
