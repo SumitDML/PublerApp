@@ -52,7 +52,7 @@ Screen1 As screen:
         ZIndex: =5
 
     Rectangle5 As rectangle:
-        X: =588
-        Y: =116
+        X: =1168
+        Y: =612
         ZIndex: =6
 
