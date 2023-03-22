@@ -227,3 +227,12 @@ Screen2 As screen:
                 Y: =59
                 ZIndex: =2
 
+    Button3 As button:
+        BorderThickness: =1
+        Fill: =RGBA(0, 121, 187, 1)
+        PressedFill: =RGBA(39, 67, 125, 1)
+        Text: ="Continue"
+        X: =561
+        Y: =646
+        ZIndex: =5
+
