@@ -8,11 +8,12 @@
     "Rectangle1": 4,
     "Rectangle2": 7,
     "Rectangle3": 8,
+    "Rectangle4": 9,
     "Screen1": 3
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "03/22/2023 07:28:26",
+  "HeaderLastSavedDateTimeUTC": "03/22/2023 07:31:09",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -42,6 +43,7 @@
     "Rectangle1": {},
     "Rectangle2": {},
     "Rectangle3": {},
+    "Rectangle4": {},
     "Screen1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
@@ -53,6 +55,7 @@
     "Rectangle1": 3,
     "Rectangle2": 6,
     "Rectangle3": 7,
+    "Rectangle4": 0,
     "Screen1": 2
   },
   "ResourcesJsonIndices": {

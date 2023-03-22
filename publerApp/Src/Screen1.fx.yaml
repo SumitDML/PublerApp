@@ -38,7 +38,16 @@ Screen1 As screen:
         ZIndex: =3
 
     Rectangle3 As rectangle:
-        X: =632
-        Y: =188
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =48
+        X: =1
+        Y: =96
         ZIndex: =4
+
+    Rectangle4 As rectangle:
+        Height: =644
+        X: =382
+        Y: =96
+        ZIndex: =5
 
