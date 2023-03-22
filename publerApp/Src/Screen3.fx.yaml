@@ -1,0 +1,11 @@
+Screen3 As screen:
+
+    Label7 As label:
+        Fill: =RGBA(50, 86, 160, 1)
+        Height: =214
+        Text: ="Text"
+        Width: =354
+        X: =340
+        Y: =256
+        ZIndex: =1
+
