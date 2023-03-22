@@ -42,8 +42,8 @@ Screen2 As screen:
         RadiusBottomRight: =20
         RadiusTopLeft: =20
         RadiusTopRight: =20
-        Width: =656
-        X: =370
+        Width: =692
+        X: =326
         Y: =232
         ZIndex: =4
 
