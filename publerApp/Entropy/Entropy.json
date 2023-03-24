@@ -63,17 +63,18 @@
     "Screen2": 28,
     "Screen3": 52,
     "TextInput1": 55,
+    "TextInput2": 66,
     "UploadedImage1": 56
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "03/24/2023 09:19:52",
+  "HeaderLastSavedDateTimeUTC": "03/24/2023 09:24:13",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "0a03649a-6f69-4fae-b217-2f3e6ccd75ec": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/shared-office365-ecdbb4e1-3c5f-4fbf-b247-bfa8d54d06a0\"",
-    "1ce2d1d9-1dde-446a-9bb9-6e94d066ecda": "\"/providers/Microsoft.PowerApps/apis/shared_logicflows/connections/590AF810CF4B4DD2AB8B1C0FC6F592AB-C3C1FB6CB5297693\"",
+    "20cc032c-6985-4cda-9848-214a16c8e415": "\"/providers/Microsoft.PowerApps/apis/shared_logicflows/connections/590AF810CF4B4DD2AB8B1C0FC6F592AB-C3C1FB6CB5297693\"",
+    "54fc289a-18bf-4134-857e-56a51a809934": "\"/providers/microsoft.powerapps/apis/shared_twitter/connections/3f67958a8efc49e4a6eefbb51be6538d\"",
     "74eb05b5-bb9a-4b42-9966-c3ef699bf1cd": "\"/providers/microsoft.powerapps/apis/shared_linkedinpost-5f7bab8a8d8ad75a9e-5fdbf6eeebb2f7948d/connections/2aa94e9c-acaf-4e6e-9c06-0fc5b09e6445\"",
-    "a5dc82f1-23f5-4eb5-8117-43a4ed22aade": "\"/providers/microsoft.powerapps/apis/shared_twitter/connections/3f67958a8efc49e4a6eefbb51be6538d\"",
     "a90eb7e2-e137-4510-852a-5138537b0153": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/8376748f672542e296f78c40168635a4-c3c1fb6cb5297693\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
@@ -134,14 +135,14 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "addMedia": 6,
+    "addMedia": 7,
     "button": 3,
     "groupContainer": 5,
     "icon": 2,
     "image": 1,
     "label": 4,
     "rectangle": 0,
-    "text": 7
+    "text": 6
   },
   "OverridablePropertiesEntry": {
     "AddMediaButton1": {},
@@ -205,6 +206,7 @@
     "Screen2": {},
     "Screen3": {},
     "TextInput1": {},
+    "TextInput2": {},
     "UploadedImage1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
@@ -271,6 +273,7 @@
     "Screen2": 26,
     "Screen3": 49,
     "TextInput1": 55,
+    "TextInput2": 0,
     "UploadedImage1": 53
   },
   "ResourcesJsonIndices": {

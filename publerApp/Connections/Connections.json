@@ -16,7 +16,7 @@
     ],
     "id": "0a03649a-6f69-4fae-b217-2f3e6ccd75ec"
   },
-  "1ce2d1d9-1dde-446a-9bb9-6e94d066ecda": {
+  "20cc032c-6985-4cda-9848-214a16c8e415": {
     "connectionParameters": {
       "logicAppHostType": "ARM",
       "workFlowCallbackUri": "https://prod-28.centralindia.logic.azure.com:443/workflows/b430fe97f1aa469e8ef39f8d5a191aa4/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=JQKA8692ipyel8-fUpTFF9JMifLYi2z9lhUYtYILIPI",
@@ -29,18 +29,12 @@
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1615/1.0.1615.3163/logicflows/icon.png",
       "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
       "parameterHints": {
-        "a5dc82f1-23f5-4eb5-8117-43a4ed22aade": {
-          "value": "shared_twitter"
-        },
         "workflowEntityId": {},
         "workflowName": {
           "value": "590af810-cf4b-4dd2-ab8b-1c0fc6f592ab"
         }
       },
       "parameterHintsV2": {
-        "shared_twitter": {
-          "value": "a5dc82f1-23f5-4eb5-8117-43a4ed22aade"
-        },
         "workflowEntityId": {},
         "workflowName": {
           "value": "590af810-cf4b-4dd2-ab8b-1c0fc6f592ab"
@@ -52,10 +46,26 @@
       "PowerApp->Postatweet-2"
     ],
     "dependencies": {
-      "shared_twitter": "a5dc82f1-23f5-4eb5-8117-43a4ed22aade"
+      "shared_twitter": "54fc289a-18bf-4134-857e-56a51a809934"
     },
     "dependents": [],
-    "id": "1ce2d1d9-1dde-446a-9bb9-6e94d066ecda"
+    "id": "20cc032c-6985-4cda-9848-214a16c8e415"
+  },
+  "54fc289a-18bf-4134-857e-56a51a809934": {
+    "connectionParameters": {},
+    "connectionRef": {
+      "authenticationType": "shared-application",
+      "displayName": "Twitter",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1624/1.0.1624.3221/twitter/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_twitter"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "20cc032c-6985-4cda-9848-214a16c8e415"
+    ],
+    "id": "54fc289a-18bf-4134-857e-56a51a809934"
   },
   "74eb05b5-bb9a-4b42-9966-c3ef699bf1cd": {
     "connectionParameters": {
@@ -73,22 +83,6 @@
       "a90eb7e2-e137-4510-852a-5138537b0153"
     ],
     "id": "74eb05b5-bb9a-4b42-9966-c3ef699bf1cd"
-  },
-  "a5dc82f1-23f5-4eb5-8117-43a4ed22aade": {
-    "connectionParameters": {},
-    "connectionRef": {
-      "authenticationType": "shared-application",
-      "displayName": "Twitter",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1624/1.0.1624.3221/twitter/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_twitter"
-    },
-    "datasets": {},
-    "dataSources": [],
-    "dependencies": {},
-    "dependents": [
-      "1ce2d1d9-1dde-446a-9bb9-6e94d066ecda"
-    ],
-    "id": "a5dc82f1-23f5-4eb5-8117-43a4ed22aade"
   },
   "a90eb7e2-e137-4510-852a-5138537b0153": {
     "connectionParameters": {

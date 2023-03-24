@@ -53,10 +53,10 @@ Screen3 As screen:
         ZIndex: =9
 
     Button6 As button:
-        OnSelect: ='PowerApp->Postatweet-2'.Run()
+        OnSelect: ='PowerApp->Postatweet-2'.Run(TextInput2.Text)
         Text: ="Button"
-        X: =114
-        Y: =176
+        X: =101
+        Y: =122
         ZIndex: =10
 
     LinkedInLogo As group:
@@ -92,4 +92,10 @@ Screen3 As screen:
             X: =554
             Y: =96
             ZIndex: =8
+
+    TextInput2 As text:
+        Default: ="Twitter Text"
+        X: =40
+        Y: =40
+        ZIndex: =11
 
