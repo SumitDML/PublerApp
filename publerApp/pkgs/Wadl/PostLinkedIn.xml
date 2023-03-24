@@ -1,8 +1,11 @@
-<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://india-001.azure-apim.net/apim/logicflows" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="PowerApp-&gt;LinkedInProfile" xmlns="http://wadl.dev.java.net/2009/02">
-  <doc title="PowerApp -&gt; LinkedInProfile" />
+<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://india-001.azure-apim.net/apim/logicflows" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="PostLinkedIn" xmlns="http://wadl.dev.java.net/2009/02">
+  <doc title="PostLinkedIn" />
   <grammars>
     <jsonTypes targetNamespace="https://india-001.azure-apim.net/apim/logicflows" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
-      <object name="ManualTriggerInput" />
+      <string name="ManualTriggerInput_CreatePostLinkedIn_text_def" />
+      <object name="ManualTriggerInput">
+        <property name="CreatePostLinkedIn_text" type="string" />
+      </object>
     </jsonTypes>
   </grammars>
   <resources siena:authenticationProviderHref="#PowerAppAuth" base="https://india-001.azure-apim.net/apim/logicflows">
@@ -14,7 +17,9 @@
           <param style="query" name="api-version" type="xs:string" required="true" fixed="2015-02-01-preview">
             <doc title="The api version" />
           </param>
-          <representation mediaType="application/json" />
+          <representation mediaType="application/json">
+            <param style="plain" name="CreatePostLinkedIn_text" path="/CreatePostLinkedIn_text" type="xs:string" required="true" />
+          </representation>
         </request>
       </method>
     </resource>

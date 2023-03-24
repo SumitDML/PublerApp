@@ -55,6 +55,35 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Screen2"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "module": "Screen2",
+                "type": "Screen2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Low"
+          },
+          "ruleId": "acc-ReadableScreenNameNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Screen1"
                 }
               ],
@@ -264,35 +293,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen2",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "module": "Screen2",
-                "type": "Screen2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Low"
-          },
-          "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Screen3"
                 }
               ],
@@ -322,19 +322,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen3.AddMediaButton1.AccessibleLabel"
+                  "fullyQualifiedName": "Screen3.TextInput1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen3.AddMediaButton1.AccessibleLabel",
+                  "fullyQualifiedName": "Screen3.TextInput1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen3",
-                "type": "Screen3.AddMediaButton1"
+                "type": "Screen3.TextInput1"
               }
             }
           ],
@@ -352,19 +352,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen3.TextInput1.AccessibleLabel"
+                  "fullyQualifiedName": "Screen3.AddMediaButton1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen3.TextInput1.AccessibleLabel",
+                  "fullyQualifiedName": "Screen3.AddMediaButton1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen3",
-                "type": "Screen3.TextInput1"
+                "type": "Screen3.AddMediaButton1"
               }
             }
           ],

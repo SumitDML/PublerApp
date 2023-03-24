@@ -1,8 +1,8 @@
 [
   {
     "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
-    "FlowNameId": "c612ef06-3798-4c7e-8e0c-e4158b00bcfd",
-    "Name": "PowerApp->LinkedInProfile",
+    "FlowNameId": "8376748f-6725-42e2-96f7-8c40168635a4",
+    "Name": "PostLinkedIn",
     "ServiceKind": "ConnectedWadl",
     "Type": "ServiceInfo",
     "WorkflowEntityId": null

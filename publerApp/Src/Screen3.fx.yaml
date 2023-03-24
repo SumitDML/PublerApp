@@ -39,7 +39,7 @@ Screen3 As screen:
             ZIndex: =5
 
     Button5 As button:
-        OnSelect: ='PowerApp->LinkedInProfile'.Run()
+        OnSelect: =PostLinkedIn.Run(TextInput1.Text)
         Text: ="Submit"
         X: =520
         Y: =632
