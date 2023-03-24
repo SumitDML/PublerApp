@@ -1,8 +1,8 @@
 [
   {
     "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
-    "FlowNameId": "ff942130-6440-4504-af21-0ab064c9a803",
-    "Name": "PowerApp->GetMyLinkedInFeed2,Sendanemailnotification(V3)",
+    "FlowNameId": "c612ef06-3798-4c7e-8e0c-e4158b00bcfd",
+    "Name": "PowerApp->LinkedInProfile",
     "ServiceKind": "ConnectedWadl",
     "Type": "ServiceInfo",
     "WorkflowEntityId": null

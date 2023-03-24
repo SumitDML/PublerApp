@@ -1,5 +1,40 @@
 {
-  "1c2c0dc3-8c4f-4124-a2cd-de7e348db109": {
+  "38346ae6-bc64-41da-a99e-05ee899866e4": {
+    "connectionParameters": {
+      "logicAppHostType": "ARM",
+      "workFlowCallbackUri": "https://prod-15.centralindia.logic.azure.com:443/workflows/5e3d5ec93f514bcf86056423c463c865/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=5izrrIWBYu2lR-biy4QagYfDQ6D4uiJ6Vviy3OEtfLM",
+      "workflowEndpoint": "/subscriptions/cbd472fe-eafa-4c32-b348-555abce6f9ba/resourceGroups/71018f36c0c74505b7fe3ca2f23ba679-b57a927e6467453e8ee0e9c171dda9c6/providers/Microsoft.Logic/workflows/c612ef06-3798-4c7e-8e0c-e4158b00bcfd",
+      "workflowName": "c612ef06-3798-4c7e-8e0c-e4158b00bcfd",
+      "workflowPath": "/subscriptions/cbd472fe-eafa-4c32-b348-555abce6f9ba/resourceGroups/71018f36c0c74505b7fe3ca2f23ba679-b57a927e6467453e8ee0e9c171dda9c6/providers/Microsoft.Logic/workflows/c612ef06-3798-4c7e-8e0c-e4158b00bcfd"
+    },
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1615/1.0.1615.3163/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "c612ef06-3798-4c7e-8e0c-e4158b00bcfd"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "c612ef06-3798-4c7e-8e0c-e4158b00bcfd"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "PowerApp->LinkedInProfile"
+    ],
+    "dependencies": {
+      "shared_linkedinconncectors-5f7bab8a8d8ad75a9e-5fdbf6eeebb2f7948d": "faab1ea3-c4f5-445a-8cba-57214a503f71"
+    },
+    "dependents": [],
+    "id": "38346ae6-bc64-41da-a99e-05ee899866e4"
+  },
+  "faab1ea3-c4f5-445a-8cba-57214a503f71": {
     "connectionParameters": {
       "sku": "Enterprise"
     },
@@ -12,61 +47,8 @@
     "dataSources": [],
     "dependencies": {},
     "dependents": [
-      "7413c7ff-ac72-4410-995d-0db1706cbb09"
+      "38346ae6-bc64-41da-a99e-05ee899866e4"
     ],
-    "id": "1c2c0dc3-8c4f-4124-a2cd-de7e348db109"
-  },
-  "7413c7ff-ac72-4410-995d-0db1706cbb09": {
-    "connectionParameters": {
-      "logicAppHostType": "ARM",
-      "workFlowCallbackUri": "https://prod-00.centralindia.logic.azure.com:443/workflows/99f814898907474686125b6359068baf/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=GseeDrjzEyKb0ePNRsJK-wLZnCsk-Qdsh7RB2GAjj00",
-      "workflowEndpoint": "/subscriptions/cbd472fe-eafa-4c32-b348-555abce6f9ba/resourceGroups/71018f36c0c74505b7fe3ca2f23ba679-b57a927e6467453e8ee0e9c171dda9c6/providers/Microsoft.Logic/workflows/ff942130-6440-4504-af21-0ab064c9a803",
-      "workflowName": "ff942130-6440-4504-af21-0ab064c9a803",
-      "workflowPath": "/subscriptions/cbd472fe-eafa-4c32-b348-555abce6f9ba/resourceGroups/71018f36c0c74505b7fe3ca2f23ba679-b57a927e6467453e8ee0e9c171dda9c6/providers/Microsoft.Logic/workflows/ff942130-6440-4504-af21-0ab064c9a803"
-    },
-    "connectionRef": {
-      "displayName": "Logic flows",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1615/1.0.1615.3163/logicflows/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
-      "parameterHints": {
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "ff942130-6440-4504-af21-0ab064c9a803"
-        }
-      },
-      "parameterHintsV2": {
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "ff942130-6440-4504-af21-0ab064c9a803"
-        }
-      }
-    },
-    "datasets": {},
-    "dataSources": [
-      "PowerApp->GetMyLinkedInFeed2,Sendanemailnotification(V3)"
-    ],
-    "dependencies": {
-      "shared_linkedinconncectors-5f7bab8a8d8ad75a9e-5fdbf6eeebb2f7948d": "1c2c0dc3-8c4f-4124-a2cd-de7e348db109",
-      "shared_sendmail": "9416c445-f9b4-4305-9fe3-0d9b82bd29c0"
-    },
-    "dependents": [],
-    "id": "7413c7ff-ac72-4410-995d-0db1706cbb09"
-  },
-  "9416c445-f9b4-4305-9fe3-0d9b82bd29c0": {
-    "connectionParameters": {
-      "sku": "Enterprise"
-    },
-    "connectionRef": {
-      "displayName": "Mail",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1621/1.0.1621.3191/sendmail/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_sendmail"
-    },
-    "datasets": {},
-    "dataSources": [],
-    "dependencies": {},
-    "dependents": [
-      "7413c7ff-ac72-4410-995d-0db1706cbb09"
-    ],
-    "id": "9416c445-f9b4-4305-9fe3-0d9b82bd29c0"
+    "id": "faab1ea3-c4f5-445a-8cba-57214a503f71"
   }
 }
