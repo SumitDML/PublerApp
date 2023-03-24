@@ -47,7 +47,7 @@ Screen3 As screen:
 
     Button6 As button:
         Height: =82
-        OnSelect: ='PowerApp->GetMyLinkedInFeed2,Sendanemailnotification(V3)'.Run()
+        OnSelect: =
         Text: ="Post to linkedIn"
         Width: =207
         X: =496

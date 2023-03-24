@@ -178,6 +178,13 @@ Screen1 As screen:
         Y: =101
         ZIndex: =17
 
+    Button7 As button:
+        OnSelect: =Navigate(Screen3)
+        Text: ="Button"
+        X: =678
+        Y: =355
+        ZIndex: =21
+
     Group5 As group:
         Height: =5
         Width: =5
