@@ -1,19 +1,14 @@
 Screen3 As screen:
 
-    Label7 As label:
-        Height: =118
-        Size: =20
-        Text: ="Tweet"
-        Width: =200
-        X: =184
-        Y: =204
-        ZIndex: =1
-
     TextInput1 As text:
+        Align: =Align.Center
         Default: =""
-        Height: =246
-        X: =440
-        Y: =354
+        Height: =318
+        HoverFill: =Color.Transparent
+        Size: =18
+        Width: =525
+        X: =410
+        Y: =254
         ZIndex: =2
 
     AddMediaWithImage1 As group:
@@ -33,24 +28,68 @@ Screen3 As screen:
             ZIndex: =4
 
         AddMediaButton1 As addMedia:
+            Height: =162
             Size: =25
-            X: =892
-            Y: =354
+            Width: =245
+            X: =1043
+            Y: =252
             ZIndex: =5
 
     Button5 As button:
+        Height: =51
         OnSelect: =PostLinkedIn.Run(TextInput1.Text)
-        Text: ="Submit"
-        X: =520
-        Y: =632
+        Text: ="POST"
+        Width: =168
+        X: =604
+        Y: =617
         ZIndex: =6
 
+    Label8 As label:
+        FontWeight: =FontWeight.Semibold
+        Size: =20
+        Text: ="Text"
+        X: =220
+        Y: =376
+        ZIndex: =9
+
     Button6 As button:
-        Height: =82
-        OnSelect: =
-        Text: ="Post to linkedIn"
-        Width: =207
-        X: =496
-        Y: =164
-        ZIndex: =7
+        OnSelect: ='PowerApp->Postatweet-2'.Run()
+        Text: ="Button"
+        X: =114
+        Y: =176
+        ZIndex: =10
+
+    LinkedInLogo As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =10
+
+        Label7 As label:
+            FontWeight: =FontWeight.Semibold
+            Height: =118
+            Size: =20
+            Text: ="Linked In "
+            Width: =137
+            X: =656
+            Y: =90
+            ZIndex: =1
+
+        Image2 As image:
+            Height: =54
+            Image: ='174857'
+            Width: =64
+            X: =592
+            Y: =122
+            ZIndex: =7
+
+        Rectangle4 As rectangle:
+            BorderThickness: =1
+            Fill: =Color.Transparent
+            Height: =105
+            Width: =260
+            X: =554
+            Y: =96
+            ZIndex: =8
 

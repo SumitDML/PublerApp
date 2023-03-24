@@ -180,7 +180,7 @@ Screen1 As screen:
 
     Button7 As button:
         OnSelect: =Navigate(Screen3)
-        Text: ="Button"
+        Text: ="Screen 3"
         X: =678
         Y: =355
         ZIndex: =21
