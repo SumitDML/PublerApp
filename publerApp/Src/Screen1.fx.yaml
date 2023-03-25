@@ -6,15 +6,17 @@ Screen1 As screen:
         BorderThickness: =1
         Fill: =RGBA(255, 255, 255, 1)
         Height: =768
+        Width: =154
+        X: =1
         ZIndex: =1
 
     Rectangle2 As rectangle:
         BorderColor: =RGBA(202, 202, 202, 1)
         BorderThickness: =0.5
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =72
-        Width: =1216
-        X: =150
+        Height: =84
+        Width: =1211
+        X: =155
         ZIndex: =2
 
     Image1 As image:
@@ -23,105 +25,12 @@ Screen1 As screen:
         Width: =153
         ZIndex: =3
 
-    Button1 As button:
-        BorderColor: =RGBA(219, 219, 219, 1)
-        BorderThickness: =0
-        DisabledColor: =RGBA(255, 255, 255, 1)
-        DisabledFill: =RGBA(255, 255, 255, 1)
-        DisplayMode: =DisplayMode.Disabled
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =644
-        RadiusBottomLeft: =15
-        RadiusBottomRight: =15
-        RadiusTopLeft: =15
-        RadiusTopRight: =15
-        Text: =""
-        Width: =168
-        X: =176
-        Y: =96
-        ZIndex: =3
-
-    Group1 As group:
-        Height: =5
-        Width: =5
-        X: =60
-        Y: =60
-        ZIndex: =7
-
-        Rectangle3 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =48
-            HoverFill: =RGBA(204, 208, 225, 1)
-            PressedFill: =RGBA(215, 223, 240, 1)
-            Y: =95
-            ZIndex: =4
-
-        Icon1 As icon.AddDocument:
-            Height: =37
-            Icon: =Icon.AddDocument
-            PressedFill: =Self.Color
-            Width: =25
-            X: =16
-            Y: =101
-            ZIndex: =5
-
-        Label1 As label:
-            Height: =32
-            PressedColor: =Self.Fill
-            PressedFill: =Self.Color
-            Size: =12
-            Text: ="Create"
-            Width: =70
-            X: =41
-            Y: =106
-            ZIndex: =6
-
-    Image3 As image:
-        Height: =72
-        Image: =D
-        Width: =39
-        X: =1316
-        ZIndex: =11
-
-    Group2 As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =11
-
-        Rectangle3_1 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =48
-            HoverFill: =RGBA(215, 223, 240, 1)
-            PressedFill: =RGBA(215, 223, 240, 1)
-            Y: =144
-            ZIndex: =7
-
-        Label1_1 As label:
-            Height: =32
-            Size: =12
-            Text: ="Post"
-            Width: =70
-            X: =41
-            Y: =148
-            ZIndex: =9
-
-        Icon2 As icon.Add:
-            Height: =35
-            Icon: =Icon.Add
-            Width: =25
-            X: =16
-            Y: =143
-            ZIndex: =10
-
     Icon3 As icon.Bell:
         Height: =72
         Icon: =Icon.Bell
         Width: =39
-        X: =1255
+        X: =1027
+        Y: =8
         ZIndex: =12
 
     Button2 As button:
@@ -130,40 +39,10 @@ Screen1 As screen:
         DisplayMode: =DisplayMode.Disabled
         Height: =634
         Text: =""
-        Width: =648
-        X: =372
-        Y: =106
+        Width: =826
+        X: =182
+        Y: =102
         ZIndex: =13
-
-    Icon4 As icon.Search:
-        Color: =RGBA(116, 116, 116, 1)
-        Height: =27
-        Icon: =Icon.Search
-        Width: =22
-        X: =200
-        Y: =118
-        ZIndex: =14
-
-    Rectangle5 As rectangle:
-        BorderColor: =RGBA(136, 160, 209, 1)
-        BorderThickness: =1
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        DisplayMode: =DisplayMode.Disabled
-        Height: =38
-        Width: =131
-        X: =188
-        Y: =113
-        ZIndex: =15
-
-    Label2 As label:
-        BorderColor: =RGBA(215, 223, 240, 1)
-        Color: =RGBA(116, 116, 116, 1)
-        Height: =39
-        Text: ="Search"
-        Width: =97
-        X: =222
-        Y: =112
-        ZIndex: =16
 
     Button4 As button:
         DisabledBorderColor: =RGBA(255, 255, 255, 1)
@@ -181,47 +60,153 @@ Screen1 As screen:
     Button7 As button:
         OnSelect: =Navigate(Screen3)
         Text: ="Screen 3"
-        X: =678
-        Y: =355
+        X: =1114
+        Y: =135
         ZIndex: =21
 
-    Group5 As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =21
+    Container3_6 As groupContainer.manualLayoutContainer:
+        BorderColor: =RGBA(227, 234, 243, 1)
+        BorderThickness: =2
+        Height: =117
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =125
+        X: =16
+        Y: =238
+        ZIndex: =22
 
-        Rectangle6 As rectangle:
-            BorderColor: =RGBA(136, 160, 209, 1)
-            BorderThickness: =1
-            DisplayMode: =DisplayMode.Disabled
-            Fill: =RGBA(255, 255, 255, 1)
-            Height: =38
-            OnSelect: =Navigate(Screen2)
-            Width: =132
-            X: =200
-            Y: =678
-            ZIndex: =18
+        Image5_6 As image:
+            Height: =65
+            Image: ='facebook-logo-png-38347 (1)'
+            Width: =37
+            X: =41
+            Y: =10
+            ZIndex: =1
 
-        Icon5 As icon.Add:
-            Color: =RGBA(136, 160, 209, 1)
-            Height: =38
-            Icon: =Icon.Add
-            OnSelect: =Navigate(Screen2)
-            Width: =22
-            X: =206
-            Y: =678
-            ZIndex: =19
+        Label6_6 As label:
+            Align: =Align.Center
+            Size: =10
+            Text: ="Facebook"
+            Width: =94
+            X: =12
+            Y: =59
+            ZIndex: =2
 
-        Label3 As label:
-            Color: =RGBA(136, 160, 209, 1)
-            Height: =38
-            OnSelect: =Navigate(Screen2)
-            Size: =12
-            Text: ="Add Account"
-            Width: =89
-            X: =242
-            Y: =678
-            ZIndex: =20
+    Container3_7 As groupContainer.manualLayoutContainer:
+        BorderColor: =RGBA(227, 234, 243, 1)
+        BorderThickness: =2
+        Height: =117
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =125
+        X: =16
+        Y: =102
+        ZIndex: =26
+
+        Label6_7 As label:
+            Align: =Align.Center
+            Size: =10
+            Text: ="Instagram"
+            Width: =94
+            X: =12
+            Y: =59
+            ZIndex: =2
+
+        Image5 As image:
+            Height: =44
+            Image: =instagram
+            Width: =44
+            X: =37
+            Y: =15
+            ZIndex: =3
+
+    Container3_8 As groupContainer.manualLayoutContainer:
+        BorderColor: =RGBA(227, 234, 243, 1)
+        BorderThickness: =2
+        Height: =117
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =125
+        X: =16
+        Y: =381
+        ZIndex: =27
+
+        Image5_7 As image:
+            Height: =65
+            Image: ='174857'
+            Width: =37
+            X: =41
+            Y: =10
+            ZIndex: =1
+
+        Label6_8 As label:
+            Align: =Align.Center
+            Size: =10
+            Text: ="LinkedIn"
+            Width: =94
+            X: =12
+            Y: =59
+            ZIndex: =2
+
+    Container3 As groupContainer.manualLayoutContainer:
+        ContentLanguage: =User().FullName
+        Height: =67
+        Width: =256
+        X: =1083
+        Y: =11
+        ZIndex: =29
+
+        Label2 As label:
+            Text: =User().FullName
+            X: =87
+            Y: =14
+            ZIndex: =1
+
+        Image6 As image:
+            Height: =50
+            Image: =User().Image
+            RadiusBottomLeft: =50
+            RadiusBottomRight: =50
+            RadiusTopLeft: =50
+            RadiusTopRight: =50
+            Width: =50
+            X: =15
+            Y: =9
+            ZIndex: =2
+
+    Container3_9 As groupContainer.manualLayoutContainer:
+        BorderColor: =RGBA(227, 234, 243, 1)
+        BorderThickness: =2
+        Height: =117
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =125
+        X: =14
+        Y: =519
+        ZIndex: =30
+
+        Image5_8 As image:
+            Height: =65
+            Image: =twitter
+            Width: =37
+            X: =41
+            Y: =10
+            ZIndex: =1
+
+        Label6_9 As label:
+            Align: =Align.Center
+            Size: =10
+            Text: ="Twitter"
+            Width: =94
+            X: =12
+            Y: =59
+            ZIndex: =2
 
