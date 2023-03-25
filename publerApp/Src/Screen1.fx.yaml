@@ -154,7 +154,7 @@ Screen1 As screen:
             Width: =149
             X: =36
             Y: =323
-            ZIndex: =16
+            ZIndex: =15
 
     TwitterButton As group:
         Height: =5
@@ -176,7 +176,7 @@ Screen1 As screen:
             Width: =146
             X: =38
             Y: =499
-            ZIndex: =15
+            ZIndex: =16
 
         Label3_5 As label:
             Align: =Align.Center
