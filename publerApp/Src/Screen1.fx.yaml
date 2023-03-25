@@ -220,6 +220,16 @@ Screen1 As screen:
             Y: =245
             ZIndex: =9
 
+        Image11 As image:
+            Height: =65
+            Image: ='174857'
+            PaddingRight: =0.00
+            PaddingTop: =0.00
+            Width: =125
+            X: =47
+            Y: =180
+            ZIndex: =12
+
         Button1_2 As button:
             BorderColor: =RGBA(206, 206, 206, 0.4)
             Fill: =RGBA(0, 0, 0, 0)
@@ -233,16 +243,6 @@ Screen1 As screen:
             Width: =149
             X: =33
             Y: =155
-            ZIndex: =12
-
-        Image11 As image:
-            Height: =65
-            Image: ='174857'
-            PaddingRight: =0.00
-            PaddingTop: =0.00
-            Width: =125
-            X: =47
-            Y: =180
             ZIndex: =13
 
     InstagramButton As group:
