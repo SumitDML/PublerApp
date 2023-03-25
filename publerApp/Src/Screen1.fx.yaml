@@ -146,6 +146,7 @@ Screen1 As screen:
             HoverFill: =RGBA(206, 206, 206, 0.1)
             PaddingRight: =7.03
             PaddingTop: =7.03
+            PressedFill: =
             Size: =21.08
             Text: =""
             Width: =149
@@ -168,6 +169,7 @@ Screen1 As screen:
             HoverFill: =RGBA(206, 206, 206, 0.1)
             PaddingRight: =7.03
             PaddingTop: =7.03
+            PressedFill: =
             Size: =21.08
             Text: =""
             Width: =146
@@ -235,6 +237,7 @@ Screen1 As screen:
             HoverFill: =RGBA(206, 206, 206, 0.1)
             PaddingRight: =7.03
             PaddingTop: =7.03
+            PressedFill: =
             Size: =21.08
             Text: =""
             Width: =149
@@ -282,6 +285,7 @@ Screen1 As screen:
             HoverFill: =RGBA(206, 206, 206, 0.1)
             PaddingRight: =7.03
             PaddingTop: =7.03
+            PressedFill: =
             Size: =21.08
             Text: =""
             Width: =150
@@ -305,7 +309,7 @@ Screen1 As screen:
         ZIndex: =24
 
         Label3_6 As label:
-            BorderColor: =RGBA(206, 206, 206, 0.4)
+            BorderColor: =RGBA(0, 0, 0, 1)
             PaddingRight: =7.03
             PaddingTop: =7.03
             Size: =16
@@ -316,6 +320,7 @@ Screen1 As screen:
             ZIndex: =2
 
         Image19 As image:
+            BorderColor: =RGBA(0, 0, 0, 1)
             Height: =50
             Image: =create
             Width: =86
@@ -324,14 +329,17 @@ Screen1 As screen:
             ZIndex: =20
 
         Button1_6 As button:
-            BorderColor: =RGBA(206, 206, 206, 0.4)
+            BorderColor: =RGBA(237, 237, 237, 1)
             BorderThickness: =0
             Fill: =RGBA(0, 0, 0, 0)
             Height: =86
             HoverColor: =RGBA(206, 206, 206, 0.1)
             HoverFill: =RGBA(206, 206, 206, 0.1)
+            OnSelect: |-
+                =UpdateContext({OneClicked:true})
             PaddingRight: =7.03
             PaddingTop: =7.03
+            PressedFill: =
             Size: =21.08
             Text: =""
             Width: =192
