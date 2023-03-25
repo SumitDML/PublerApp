@@ -63,22 +63,14 @@ Screen1 As screen:
         Width: =290
         X: =1049
         Y: =101
-        ZIndex: =9
+        ZIndex: =10
 
     Button7 As button:
         OnSelect: =Navigate(Screen3)
         Text: ="Screen 3"
         X: =1114
         Y: =135
-        ZIndex: =12
-
-    Image5_9 As image:
-        Height: =63
-        Image: ='facebook-logo-png-38347 (1)'
-        Width: =51
-        X: =53
-        Y: =264
-        ZIndex: =13
+        ZIndex: =11
 
     Image11 As image:
         Height: =58
@@ -86,6 +78,14 @@ Screen1 As screen:
         Width: =87
         X: =33
         Y: =557
+        ZIndex: =13
+
+    Image5_9 As image:
+        Height: =63
+        Image: ='facebook-logo-png-38347 (1)'
+        Width: =51
+        X: =53
+        Y: =264
         ZIndex: =14
 
     Image13 As image:
@@ -136,7 +136,7 @@ Screen1 As screen:
             Size: =11
             Text: ="LinkedIn"
             Y: =615
-            ZIndex: =10
+            ZIndex: =9
 
         Button1_2 As button:
             BorderColor: =RGBA(206, 206, 206, 0.4)
@@ -148,7 +148,7 @@ Screen1 As screen:
             Width: =125
             X: =12
             Y: =535
-            ZIndex: =11
+            ZIndex: =12
 
     FacebookButton As group:
         Height: =5
