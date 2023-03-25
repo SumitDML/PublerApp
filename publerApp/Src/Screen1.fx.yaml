@@ -51,7 +51,7 @@ Screen1 As screen:
         Width: =54.82
         X: =1442.11
         Y: =12
-        ZIndex: =8
+        ZIndex: =9
 
     Button4 As button:
         DisabledBorderColor: =RGBA(255, 255, 255, 1)
@@ -139,7 +139,7 @@ Screen1 As screen:
             Width: =69
             X: =75
             Y: =348
-            ZIndex: =14
+            ZIndex: =13
 
         Button1_3 As button:
             BorderColor: =RGBA(206, 206, 206, 0.4)
@@ -218,7 +218,7 @@ Screen1 As screen:
             Width: =215
             X: =2
             Y: =245
-            ZIndex: =9
+            ZIndex: =8
 
         Image11 As image:
             Height: =65
@@ -243,7 +243,7 @@ Screen1 As screen:
             Width: =149
             X: =33
             Y: =155
-            ZIndex: =13
+            ZIndex: =14
 
     InstagramButton As group:
         Height: =5
