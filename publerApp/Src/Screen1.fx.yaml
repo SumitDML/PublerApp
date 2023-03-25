@@ -360,8 +360,8 @@ Screen1 As screen:
         Default: ="Write <strong>Something</strong>..."
         Height: =306
         Width: =767
-        X: =574
-        Y: =266
+        X: =580
+        Y: =293
         ZIndex: =25
 
     PostButton As group:
