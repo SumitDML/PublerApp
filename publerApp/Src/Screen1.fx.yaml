@@ -86,7 +86,7 @@ Screen1 As screen:
         Width: =87
         X: =33
         Y: =557
-        ZIndex: =15
+        ZIndex: =14
 
     Image13 As image:
         Height: =76
@@ -175,7 +175,7 @@ Screen1 As screen:
             Width: =125
             X: =15
             Y: =247
-            ZIndex: =14
+            ZIndex: =15
 
     TwitterButton As group:
         Height: =5
