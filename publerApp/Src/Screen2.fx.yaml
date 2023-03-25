@@ -5,20 +5,24 @@ Screen2 As screen:
         Font: =Font.Georgia
         FontWeight: =FontWeight.Bold
         Height: =55
-        Size: =20
+        PaddingRight: =7.03
+        PaddingTop: =7.03
+        Size: =28.11
         Text: |-
             ="Add your social accounts
             "
-        Width: =317
-        X: =495
+        Width: =445.56
+        X: =695.75
         Y: =155
         ZIndex: =1
 
     Image4 As image:
         Height: =123
         Image: =socialmedia
-        Width: =185
-        X: =561
+        PaddingRight: =0.00
+        PaddingTop: =0.00
+        Width: =260.03
+        X: =788.52
         Y: =32
         ZIndex: =2
 
@@ -26,10 +30,12 @@ Screen2 As screen:
         Align: =Align.Center
         Color: =RGBA(149, 149, 149, 1)
         Height: =34
-        Size: =10
+        PaddingRight: =7.03
+        PaddingTop: =7.03
+        Size: =14.06
         Text: ="Connect your Facebook, Instagram, Twitter, LinkedIn, and so on"
-        Width: =567
-        X: =370
+        Width: =796.95
+        X: =520.06
         Y: =198
         ZIndex: =3
 
@@ -38,12 +44,14 @@ Screen2 As screen:
         BorderThickness: =1
         Fill: =RGBA(255, 255, 255, 1)
         Height: =341
+        PaddingRight: =0.00
+        PaddingTop: =0.00
         RadiusBottomLeft: =20
         RadiusBottomRight: =20
         RadiusTopLeft: =20
         RadiusTopRight: =20
-        Width: =692
-        X: =326
+        Width: =972.65
+        X: =458.21
         Y: =232
         ZIndex: =4
 
@@ -51,29 +59,35 @@ Screen2 As screen:
             BorderColor: =RGBA(227, 234, 243, 1)
             BorderThickness: =2
             Height: =117
+            PaddingRight: =0.00
+            PaddingTop: =0.00
             RadiusBottomLeft: =10
             RadiusBottomRight: =10
             RadiusTopLeft: =10
             RadiusTopRight: =10
-            Width: =125
-            X: =264
+            Width: =175.70
+            X: =371.07
             Y: =35
             ZIndex: =2
 
             Image5_1 As image:
                 Height: =65
                 Image: ='facebook-logo-png-38347 (1)'
-                Width: =37
-                X: =41
+                PaddingRight: =0.00
+                PaddingTop: =0.00
+                Width: =52.01
+                X: =57.63
                 Y: =10
                 ZIndex: =1
 
             Label6_1 As label:
                 Align: =Align.Center
-                Size: =10
+                PaddingRight: =7.03
+                PaddingTop: =7.03
+                Size: =14.06
                 Text: ="Facebook"
-                Width: =94
-                X: =12
+                Width: =132.12
+                X: =16.87
                 Y: =59
                 ZIndex: =2
 
@@ -81,29 +95,35 @@ Screen2 As screen:
             BorderColor: =RGBA(227, 234, 243, 1)
             BorderThickness: =2
             Height: =117
+            PaddingRight: =0.00
+            PaddingTop: =0.00
             RadiusBottomLeft: =10
             RadiusBottomRight: =10
             RadiusTopLeft: =10
             RadiusTopRight: =10
-            Width: =125
-            X: =476
+            Width: =175.70
+            X: =669.05
             Y: =35
             ZIndex: =3
 
             Image5_2 As image:
                 Height: =65
                 Image: =twitter
-                Width: =37
-                X: =41
+                PaddingRight: =0.00
+                PaddingTop: =0.00
+                Width: =52.01
+                X: =57.63
                 Y: =10
                 ZIndex: =1
 
             Label6_2 As label:
                 Align: =Align.Center
-                Size: =10
+                PaddingRight: =7.03
+                PaddingTop: =7.03
+                Size: =14.06
                 Text: ="Twitter"
-                Width: =94
-                X: =12
+                Width: =132.12
+                X: =16.87
                 Y: =59
                 ZIndex: =2
 
@@ -111,29 +131,35 @@ Screen2 As screen:
             BorderColor: =RGBA(227, 234, 243, 1)
             BorderThickness: =2
             Height: =117
+            PaddingRight: =0.00
+            PaddingTop: =0.00
             RadiusBottomLeft: =10
             RadiusBottomRight: =10
             RadiusTopLeft: =10
             RadiusTopRight: =10
-            Width: =125
-            X: =53
+            Width: =175.70
+            X: =74.49
             Y: =198
             ZIndex: =4
 
             Image5_3 As image:
                 Height: =65
                 Image: ='174857'
-                Width: =37
-                X: =41
+                PaddingRight: =0.00
+                PaddingTop: =0.00
+                Width: =52.01
+                X: =57.63
                 Y: =10
                 ZIndex: =1
 
             Label6_3 As label:
                 Align: =Align.Center
-                Size: =10
+                PaddingRight: =7.03
+                PaddingTop: =7.03
+                Size: =14.06
                 Text: ="LinkedIn"
-                Width: =94
-                X: =12
+                Width: =132.12
+                X: =16.87
                 Y: =59
                 ZIndex: =2
 
@@ -141,29 +167,35 @@ Screen2 As screen:
             BorderColor: =RGBA(227, 234, 243, 1)
             BorderThickness: =2
             Height: =117
+            PaddingRight: =0.00
+            PaddingTop: =0.00
             RadiusBottomLeft: =10
             RadiusBottomRight: =10
             RadiusTopLeft: =10
             RadiusTopRight: =10
-            Width: =125
-            X: =264
+            Width: =175.70
+            X: =371.07
             Y: =198
             ZIndex: =5
 
             Image5_4 As image:
                 Height: =65
                 Image: ='174857'
-                Width: =37
-                X: =41
+                PaddingRight: =0.00
+                PaddingTop: =0.00
+                Width: =52.01
+                X: =57.63
                 Y: =10
                 ZIndex: =1
 
             Label6_4 As label:
                 Align: =Align.Center
-                Size: =10
+                PaddingRight: =7.03
+                PaddingTop: =7.03
+                Size: =14.06
                 Text: ="LinkedIn"
-                Width: =94
-                X: =12
+                Width: =132.12
+                X: =16.87
                 Y: =59
                 ZIndex: =2
 
@@ -171,38 +203,48 @@ Screen2 As screen:
             BorderColor: =RGBA(227, 234, 243, 1)
             BorderThickness: =2
             Height: =117
+            PaddingRight: =0.00
+            PaddingTop: =0.00
             RadiusBottomLeft: =10
             RadiusBottomRight: =10
             RadiusTopLeft: =10
             RadiusTopRight: =10
-            Width: =125
-            X: =476
+            Width: =175.70
+            X: =669.05
             Y: =198
             ZIndex: =6
 
             Image5_5 As image:
                 Height: =65
                 Image: ='174857'
-                Width: =37
-                X: =41
+                PaddingRight: =0.00
+                PaddingTop: =0.00
+                Width: =52.01
+                X: =57.63
                 Y: =10
                 ZIndex: =1
 
             Label6_5 As label:
                 Align: =Align.Center
-                Size: =10
+                PaddingRight: =7.03
+                PaddingTop: =7.03
+                Size: =14.06
                 Text: ="LinkedIn"
-                Width: =94
-                X: =12
+                Width: =132.12
+                X: =16.87
                 Y: =59
                 ZIndex: =2
 
     Button3 As button:
         BorderThickness: =1
         Fill: =RGBA(0, 121, 187, 1)
+        PaddingRight: =7.03
+        PaddingTop: =7.03
         PressedFill: =RGBA(39, 67, 125, 1)
+        Size: =21.08
         Text: ="Continue"
-        X: =561
+        Width: =224.89
+        X: =788.52
         Y: =646
         ZIndex: =5
 

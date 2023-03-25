@@ -5,9 +5,11 @@ Screen3 As screen:
         Default: =""
         Height: =318
         HoverFill: =Color.Transparent
-        Size: =18
-        Width: =525
-        X: =410
+        PaddingRight: =7.03
+        PaddingTop: =7.03
+        Size: =25.30
+        Width: =737.92
+        X: =576.28
         Y: =254
         ZIndex: =2
 
@@ -22,33 +24,41 @@ Screen3 As screen:
             Height: =AddMediaButton1.Height
             Image: =If(IsBlank(AddMediaButton1.Media), SampleImage, AddMediaButton1.Media)
             ImagePosition: =ImagePosition.Fill
-            Width: =AddMediaButton1.Width
-            X: =AddMediaButton1.X
+            PaddingRight: =0.00
+            PaddingTop: =0.00
+            Width: =344.36
+            X: =1466.00
             Y: =AddMediaButton1.Y
             ZIndex: =4
 
         AddMediaButton1 As addMedia:
             Height: =162
-            Size: =25
-            Width: =245
-            X: =1043
+            Size: =35.14
+            Width: =344.36
+            X: =1466.00
             Y: =252
             ZIndex: =5
 
     Button5 As button:
         Height: =51
         OnSelect: =PostLinkedIn.Run(TextInput1.Text)
+        PaddingRight: =7.03
+        PaddingTop: =7.03
+        Size: =21.08
         Text: ="POST"
-        Width: =168
-        X: =604
+        Width: =236.13
+        X: =848.96
         Y: =617
         ZIndex: =6
 
     Label8 As label:
         FontWeight: =FontWeight.Semibold
-        Size: =20
+        PaddingRight: =7.03
+        PaddingTop: =7.03
+        Size: =28.11
         Text: ="Text"
-        X: =220
+        Width: =210.83
+        X: =309.22
         Y: =376
         ZIndex: =9
 
@@ -62,18 +72,22 @@ Screen3 As screen:
         Label7 As label:
             FontWeight: =FontWeight.Semibold
             Height: =118
-            Size: =20
+            PaddingRight: =7.03
+            PaddingTop: =7.03
+            Size: =28.11
             Text: ="Linked In "
-            Width: =137
-            X: =656
+            Width: =192.56
+            X: =922.05
             Y: =90
             ZIndex: =1
 
         Image2 As image:
             Height: =54
             Image: ='174857'
-            Width: =64
-            X: =592
+            PaddingRight: =0.00
+            PaddingTop: =0.00
+            Width: =89.96
+            X: =832.09
             Y: =122
             ZIndex: =7
 
@@ -81,8 +95,8 @@ Screen3 As screen:
             BorderThickness: =1
             Fill: =Color.Transparent
             Height: =105
-            Width: =260
-            X: =554
+            Width: =365.45
+            X: =778.68
             Y: =96
             ZIndex: =8
 
