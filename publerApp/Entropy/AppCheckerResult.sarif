@@ -202,36 +202,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.D"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.D",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "D",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "App.fb"
                 }
               ],
