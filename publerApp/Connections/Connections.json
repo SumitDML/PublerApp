@@ -1,1 +1,60 @@
-{}
+{
+  "2ca8e3ea-2022-4b78-9715-023d33d520ce": {
+    "connectionParameters": {
+      "logicAppHostType": "ARM",
+      "workFlowCallbackUri": "https://prod-23.centralindia.logic.azure.com:443/workflows/4c257a0de8e34739a8f18f4f1dce4bb6/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=Yb4V0DTgbwH5UW54lH33QvLUa5HtZG7VPlDYUg2939A",
+      "workflowEndpoint": "/subscriptions/cbd472fe-eafa-4c32-b348-555abce6f9ba/resourceGroups/71018f36c0c74505b7fe3ca2f23ba679-b57a927e6467453e8ee0e9c171dda9c6/providers/Microsoft.Logic/workflows/e6dfa5c2-53a3-4e0e-8b4f-b2bd04978afd",
+      "workflowName": "e6dfa5c2-53a3-4e0e-8b4f-b2bd04978afd",
+      "workflowPath": "/subscriptions/cbd472fe-eafa-4c32-b348-555abce6f9ba/resourceGroups/71018f36c0c74505b7fe3ca2f23ba679-b57a927e6467453e8ee0e9c171dda9c6/providers/Microsoft.Logic/workflows/e6dfa5c2-53a3-4e0e-8b4f-b2bd04978afd"
+    },
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1615/1.0.1615.3163/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "d80696d8-3c48-42c5-b153-8786cfb6363f": {
+          "value": "shared_linkedinpost-5f7bab8a8d8ad75a9e-5fdbf6eeebb2f7948d"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "e6dfa5c2-53a3-4e0e-8b4f-b2bd04978afd"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_linkedinpost-5f7bab8a8d8ad75a9e-5fdbf6eeebb2f7948d": {
+          "value": "d80696d8-3c48-42c5-b153-8786cfb6363f"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "e6dfa5c2-53a3-4e0e-8b4f-b2bd04978afd"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "ProfileLinkedIn"
+    ],
+    "dependencies": {
+      "shared_linkedinpost-5f7bab8a8d8ad75a9e-5fdbf6eeebb2f7948d": "d80696d8-3c48-42c5-b153-8786cfb6363f"
+    },
+    "dependents": [],
+    "id": "2ca8e3ea-2022-4b78-9715-023d33d520ce"
+  },
+  "d80696d8-3c48-42c5-b153-8786cfb6363f": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "LinkedInPost",
+      "iconUri": "https://prodapiicons.cdn.powerappscdn.net/20230324t000000zbb6f7e319bf240fcb1bdac250d958ee5/customconnectoricon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_linkedinpost-5f7bab8a8d8ad75a9e-5fdbf6eeebb2f7948d"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "2ca8e3ea-2022-4b78-9715-023d33d520ce"
+    ],
+    "id": "d80696d8-3c48-42c5-b153-8786cfb6363f"
+  }
+}

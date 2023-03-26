@@ -10,6 +10,20 @@ Screen1 As screen:
         X: =1.41
         ZIndex: =1
 
+    Button2 As button:
+        BorderThickness: =0
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Disabled
+        Height: =932
+        PaddingRight: =7.03
+        PaddingTop: =7.03
+        Size: =21.08
+        Text: =""
+        Width: =923
+        X: =493
+        Y: =122
+        ZIndex: =2
+
     Button6 As button:
         BorderThickness: =0
         DisabledFill: =
@@ -24,20 +38,6 @@ Screen1 As screen:
         Width: =227
         X: =240
         Y: =122
-        ZIndex: =3
-
-    Button2 As button:
-        BorderThickness: =0
-        DisabledFill: =RGBA(255, 255, 255, 1)
-        DisplayMode: =DisplayMode.Disabled
-        Height: =919
-        PaddingRight: =7.03
-        PaddingTop: =7.03
-        Size: =21.08
-        Text: =""
-        Width: =923
-        X: =494
-        Y: =122
         ZIndex: =4
 
     Button4 As button:
@@ -46,7 +46,7 @@ Screen1 As screen:
         DisabledFill: =RGBA(255, 255, 255, 1)
         DisplayMode: =DisplayMode.Disabled
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =919
+        Height: =932
         PaddingRight: =7.03
         PaddingTop: =7.03
         Size: =21.08
@@ -235,11 +235,12 @@ Screen1 As screen:
             Height: =139
             HoverColor: =RGBA(206, 206, 206, 0.1)
             HoverFill: =RGBA(206, 206, 206, 0.1)
+            OnSelect: =Set(varResponse,ProfileLinkedIn.Run())
             PaddingRight: =7.03
             PaddingTop: =7.03
             PressedFill: =
             Size: =21.08
-            Text: =""
+            Text: =
             Width: =149
             X: =278
             Y: =173
@@ -293,20 +294,21 @@ Screen1 As screen:
             Y: =835
             ZIndex: =18
 
-    Image20 As image:
-        Height: =106
-        Image: =sketchwireLogo
-        Width: =177
-        X: =26
-        Y: =16
-        ZIndex: =23
-
-    Image21 As image:
+    notificationIcon As image:
         Height: =48
         Image: =notification
         Width: =42
         X: =1810
         Y: =35
+        ZIndex: =23
+
+    RichTextEditor1 As richTextEditor:
+        BorderColor: =RGBA(206, 206, 206, 0.4)
+        Default: ="Write <strong>Something</strong>..."
+        Height: =306
+        Width: =767
+        X: =599
+        Y: =383
         ZIndex: =24
 
     CreateButton As group:
@@ -325,7 +327,7 @@ Screen1 As screen:
             Width: =96
             X: =107
             Y: =158
-            ZIndex: =2
+            ZIndex: =3
 
         Image19 As image:
             BorderColor: =RGBA(0, 0, 0, 1)
@@ -353,16 +355,32 @@ Screen1 As screen:
             Width: =192
             X: =12
             Y: =135
-            ZIndex: =22
+            ZIndex: =21
 
-    RichTextEditor1 As richTextEditor:
-        BorderColor: =RGBA(206, 206, 206, 0.4)
-        Default: ="Write <strong>Something</strong>..."
-        Height: =306
-        Width: =767
-        X: =580
-        Y: =293
-        ZIndex: =25
+    Label1 As label:
+        BorderThickness: =1
+        FontWeight: =FontWeight.Semibold
+        Height: =65
+        Size: =16
+        Text: =varResponse.fname&" "&varResponse.lname
+        Width: =174
+        X: =735
+        Y: =173
+        ZIndex: =28
+
+    Image3 As image:
+        Image: ='174857'
+        X: =650
+        Y: =735
+        ZIndex: =29
+
+    Image5 As image:
+        Height: =113
+        Image: =sketchwireLogo
+        Width: =167
+        X: =25
+        Y: =3
+        ZIndex: =30
 
     PostButton As group:
         Height: =5
@@ -380,7 +398,7 @@ Screen1 As screen:
             Width: =96
             X: =114
             Y: =265
-            ZIndex: =26
+            ZIndex: =25
 
         Button1_7 As button:
             BorderColor: =RGBA(237, 237, 237, 1)
@@ -399,7 +417,7 @@ Screen1 As screen:
             Width: =192
             X: =19
             Y: =242
-            ZIndex: =28
+            ZIndex: =26
 
         Image23 As image:
             Height: =64
@@ -407,5 +425,5 @@ Screen1 As screen:
             Width: =50
             X: =50
             Y: =248
-            ZIndex: =29
+            ZIndex: =27
 
