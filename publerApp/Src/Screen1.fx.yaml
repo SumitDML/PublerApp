@@ -235,7 +235,7 @@ Screen1 As screen:
             Height: =139
             HoverColor: =RGBA(206, 206, 206, 0.1)
             HoverFill: =RGBA(206, 206, 206, 0.1)
-            OnSelect: =Set(varResponse,ProfileLinkedIn.Run())
+            OnSelect: =
             PaddingRight: =7.03
             PaddingTop: =7.03
             PressedFill: =
