@@ -437,8 +437,8 @@ Screen1 As screen:
             Height: =128
             Text: ="Button"
             Width: =317
-            X: =1066
-            Y: =909
+            X: =523
+            Y: =903
             ZIndex: =28
 
         Label1 As label:
@@ -447,8 +447,8 @@ Screen1 As screen:
             Size: =16
             Text: =varResponse.fname&" "&varResponse.lname
             Width: =181
-            X: =1202
-            Y: =961
+            X: =647
+            Y: =956
             ZIndex: =29
 
         Image15_1 As image:
@@ -461,15 +461,32 @@ Screen1 As screen:
             RadiusTopLeft: =50
             RadiusTopRight: =50
             Width: =85
-            X: =1093
+            X: =538
             Y: =927
             ZIndex: =31
 
         Label2 As label:
             Text: ="Logged in as"
-            X: =1245
-            Y: =926
+            X: =647
+            Y: =928
             ZIndex: =32
+
+    Button9 As button:
+        BorderColor: =RGBA(136, 160, 209, 1)
+        BorderThickness: =4
+        Color: =RGBA(136, 160, 209, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =20
+        Text: ="Publish"
+        Width: =239
+        X: =891
+        Y: =956
+        ZIndex: =35
 
     InsertImage As group:
         Height: =5
@@ -497,4 +514,15 @@ Screen1 As screen:
             X: =614
             Y: =419
             ZIndex: =34
+
+    Button10 As button:
+        BorderColor: =RGBA(136, 160, 209, 1)
+        BorderThickness: =0
+        Fill: =RGBA(172, 237, 222,1)
+        Height: =75
+        Text: ="Schedule"
+        Width: =227
+        X: =1154
+        Y: =956
+        ZIndex: =36
 
