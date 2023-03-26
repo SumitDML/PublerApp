@@ -102,14 +102,12 @@ Screen1 As screen:
             Y: =10
             ZIndex: =2
 
-        Label11 As label:
-            FontWeight: =FontWeight.Lighter
-            Height: =26
-            Text: ="Welcome To App"
-            Width: =148
+        HtmlText1 As htmlViewer:
+            HtmlText: ="Welcome to <b>Newsletter App</b>"
+            Width: =232
             X: =138
             Y: =50
-            ZIndex: =3
+            ZIndex: =4
 
     FacebookButton As group:
         Height: =5
