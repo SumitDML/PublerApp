@@ -369,9 +369,11 @@ Screen1 As screen:
         ZIndex: =28
 
     Image3 As image:
+        Height: =55
         Image: ='174857'
-        X: =650
-        Y: =735
+        Width: =45
+        X: =523
+        Y: =380
         ZIndex: =29
 
     Image5 As image:
