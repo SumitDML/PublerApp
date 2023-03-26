@@ -465,3 +465,35 @@ Screen1 As screen:
             Y: =926
             ZIndex: =32
 
+    AddMediaButton2 As addMedia:
+        Height: =49
+        Size: =25
+        Text: ="Click To add picture"
+        Visible: =false
+        Width: =767
+        X: =596
+        Y: =515
+        ZIndex: =35
+
+    AddMediaWithImage3 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =36
+
+        UploadedImage3 As image:
+            Height: =AddMediaButton3.Height
+            Image: =If(IsBlank(AddMediaButton3.Media), SampleImage, AddMediaButton3.Media)
+            ImagePosition: =ImagePosition.Fill
+            Width: =AddMediaButton3.Width
+            X: =AddMediaButton3.X
+            Y: =AddMediaButton3.Y
+            ZIndex: =37
+
+        AddMediaButton3 As addMedia:
+            Size: =25
+            X: =567
+            Y: =540
+            ZIndex: =38
+
